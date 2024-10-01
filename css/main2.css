@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  :root {
+      --second-bg-color: #c1efde;
+    }
+    .secondary-bg {
+      background-color: var(--second-bg-color);
+    }
+    .rounded-full {
+      border-radius: 100%;
+    }
+    .divider {
+      margin: auto;
+      width: 70%;
+      border: 1px solid #ced2db;
+    }
+    .pichead img{
+      border-radius: 50%;
+      height: 70px;
+    }
+    .row .oms{
+      width: 340px;
+    }
+    .row h5, p{
+      color: #fff;
+    }
+    .list-group{
+      padding: 10px;
+    }
+    .list-group a{
+      font-size: 20px;
+      padding: 10px;
+      margin-bottom: 5px;
+      text-decoration: none;
+    }
+    .list-group a:hover{
+      color: #fff;
+      background-color: #0c97fad7;
+      transition: 0.4s ease;
+    }
+    .nav-item{
+      position: relative;
+    }
+    .nav-item .nav-link{
+      position: absolute;
+      right: 1px;
+      top: 1px;
+    }
+    #wrapper {
+      padding-top: 90px;
+      /* scroll-padding-top: 6rem; */
+    }
+    #sidebar-wrapper {
+      min-height: 100vh;
+      margin-left: -15rem;
+      -webkit-transition: margin 0.25s ease-out;
+      -moz-transition: margin 0.25s ease-out;
+      -o-transition: margin 0.25s ease-out;
+      transition: margin 0.25s ease-out;
+    }
+    
+    #sidebar-wrapper .sidebar-heading {
+      padding: 0.875rem 1.25rem;
+      font-size: 1.2rem;
+    }
+    
+    #sidebar-wrapper .list-group {
+      width: 15rem;
+    }
+    
+    #page-content-wrapper {
+      min-width: 100vw;
+    }
+    
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: 0;
+    }
+    
+    #menu-toggle {
+      cursor: pointer;
+    }
+   
+  
+    /* MEDIA QUERY */
+    @media (min-width: 480px){
+      .row .oms{
+        width: 420px;
+      }
+      /* .nav-item .nav-link{
+        position: absolute;
+        right: 1px;
+        top: 1px; 
+      } */
+    }
+    
+    @media (min-width: 1024px) {
+      .row .oms{
+        width: 361px;
+      }
+      #sidebar-wrapper {
+        margin-left: 0;
+      }
+    
+      #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+      }
+    
+      #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+      }
+    }
+  
+    @media (min-width: 1304px){
+      .row .oms{
+        width: 334px;
+      }
+    }
+  

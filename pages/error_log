@@ -1,0 +1,29 @@
+[30-Sep-2024 09:36:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function numRows() in /home/ascblzri/class-scheduler.asc-bislig.com/includes/navbar.php:7
+Stack trace:
+#0 /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php(107): include()
+#1 {main}
+  thrown in /home/ascblzri/class-scheduler.asc-bislig.com/includes/navbar.php on line 7
+[30-Sep-2024 09:37:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function executeNonQuery() in /home/ascblzri/class-scheduler.asc-bislig.com/includes/navbar.php:5
+Stack trace:
+#0 /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php(107): include()
+#1 {main}
+  thrown in /home/ascblzri/class-scheduler.asc-bislig.com/includes/navbar.php on line 5
+[30-Sep-2024 09:43:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function executeNonQuery() in /home/ascblzri/class-scheduler.asc-bislig.com/includes/navbar.php:5
+Stack trace:
+#0 /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php(107): include()
+#1 {main}
+  thrown in /home/ascblzri/class-scheduler.asc-bislig.com/includes/navbar.php on line 5
+[30-Sep-2024 09:45:56 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 203
+[30-Sep-2024 09:45:56 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 204
+[30-Sep-2024 09:55:40 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 203
+[30-Sep-2024 09:55:40 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 204
+[30-Sep-2024 09:56:36 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 203
+[30-Sep-2024 09:56:36 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 204
+[30-Sep-2024 09:59:13 UTC] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such column: department in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php on line 56
+[30-Sep-2024 09:59:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on bool in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php:82
+Stack trace:
+#0 /home/ascblzri/class-scheduler.asc-bislig.com/pages/home.php(280): fetchAssoc()
+#1 {main}
+  thrown in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php on line 82
+[30-Sep-2024 10:00:12 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 203
+[30-Sep-2024 10:00:12 UTC] PHP Warning:  Undefined array key "course" in /home/ascblzri/class-scheduler.asc-bislig.com/pages/displaysched.php on line 204

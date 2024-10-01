@@ -1,0 +1,12 @@
+[30-Sep-2024 05:38:29 UTC] PHP Fatal error:  Uncaught Exception: Unable to open database: unable to open database file in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php:9
+Stack trace:
+#0 /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php(9): SQLite3->__construct()
+#1 /home/ascblzri/class-scheduler.asc-bislig.com/index.php(3): include('/home/ascblzri/...')
+#2 {main}
+  thrown in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php on line 9
+[30-Sep-2024 05:42:24 UTC] PHP Fatal error:  Uncaught Exception: Unable to open database: unable to open database file in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php:13
+Stack trace:
+#0 /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php(13): SQLite3->__construct()
+#1 /home/ascblzri/class-scheduler.asc-bislig.com/index.php(3): include('/home/ascblzri/...')
+#2 {main}
+  thrown in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php on line 13

@@ -1,0 +1,6 @@
+[30-Sep-2024 09:57:53 UTC] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such column: subjects.subject_id in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php on line 56
+[30-Sep-2024 09:57:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchArray() on bool in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php:82
+Stack trace:
+#0 /home/ascblzri/class-scheduler.asc-bislig.com/queries/coursemerging.php(41): fetchAssoc()
+#1 {main}
+  thrown in /home/ascblzri/class-scheduler.asc-bislig.com/functions/db_connect.php on line 82

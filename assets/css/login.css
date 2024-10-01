@@ -1,0 +1,26 @@
+#signup {
+    color: green;
+    font-weight: bold;
+}
+
+#signup:hover{
+    background-color: blue;
+    color: pink;
+    cursor: pointer;
+}
+
+#passwordright {
+    color: green;
+}
+
+#passwordwrong {
+    color: red;
+}
+
+#wew {
+    width: 300px;
+}
+
+#forgot:hover {
+    cursor: pointer;
+}

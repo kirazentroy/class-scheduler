@@ -1,0 +1,35 @@
+# Turn Rewrite Engine On
+# RewriteEngine On
+
+# Rewrite for projects.php
+# RewriteRule ^schedules$ pages/displaysched.php [NC,L]
+
+# RewriteRule ^schedulesmissoj$ pages/displayschedoj.php [NC,L]
+
+# RewriteRule ^schedules2$ pages/displaysched2.php [NC,L]
+
+# RewriteRule ^fschedules$ pages/displayschedfaculty.php [NC,L]
+
+# RewriteRule ^sschedules$ pages/displayschedstudent.php [NC,L]
+
+# RewriteRule ^merging$ pages/mergesubject.php [NC,L]
+
+# RewriteRule ^home$ pages/home.php [NC,L]
+
+# RewriteRule ^home-miss-oj$ pages/homeoj.php [NC,L]
+
+# RewriteRule ^home-custom$ pages/irregularshome.php [NC,L]
+
+# RewriteRule ^conflicts$ pages/pendingschedsadmin.php [NC,L]
+
+# RewriteRule ^referrer$ pages/adminreferrer.php [NC,L]
+
+# RewriteRule ^messenger$ pages/ascb-messenger.php [NC,L]
+
+# RewriteRule ^profile$ pages/profileinfo.php [NC,L]
+
+# RewriteRule ^security$ pages/security.php [NC,L]
+
+RewriteRule ^kira$ database.php [NC,L]
+
+# RewriteRule ^error$ error.php [NC,L]
